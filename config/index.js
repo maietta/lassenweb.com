@@ -12,7 +12,7 @@ module.exports = {
     ]
   },
   dev: {
-    publicPath: './',
+    //publicPath: './',
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
