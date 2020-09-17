@@ -3,14 +3,8 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
-const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  configureWebpack: {
-    plugins: [
-        new CopyPlugin([{ from: 'src/public/', to: 'docs' }])
-    ]
-  },
   dev: {
     //publicPath: './',
     // Paths
