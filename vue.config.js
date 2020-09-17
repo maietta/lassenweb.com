@@ -5,7 +5,8 @@ module.exports = {
       plugins: [
         new CopyPlugin({
             patterns: [
-                { from: '../CNAME', to: './docs/' }
+                { from: 'CNAME', to: './docs/' }
+                
             ],
         }),
       ]
