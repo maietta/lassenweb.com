@@ -4,6 +4,7 @@
   "private": true,
   "description": "A SPA PWA for LassenWeb API",
   "author": "Nick Maietta",
+  "homepage": "lassenweb.com",
   "scripts": {
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
